@@ -1,3 +1,105 @@
+#java springboot
+classes/
+target/
+build/
+dist
+*/src/*/java/META-INF
+*/src/META-INF/
+*/src/*/java/META-INF/
+.classpath
+.springBeans
+.project
+.settings/
+.gradle/
+.groovy
+
+#idea
+.idea/
+/.idea_modules
+out/
+bin/
+intellij/
+
+*.log
+*.log.*
+*.iml
+*.ipr
+*.iws
+
+atlassian-ide-plugin.xml
+!etc/eclipse/.checkstyle
+.checkstyle
+s101plugin.state
+.attach_pid*
+*~
+*#
+.*.swp
+.*.swo
+*.patch
+*.java.hsp
+*.sonarj
+*.sw*
+.pc
+desktop.ini
+#mac os
+.DS_Store
+.cache
+.classpath
+.codefellow
+.ensime*
+.eprj
+.history
+*.vim
+# tmp
+tmp
+# sbt
+.sbtserver
+.sbtserver.lock
+.scala_dependencies
+.scalastyle
+
+
+
+#####node env,   antd pro的样板
+package-lock.json
+yarn.lock
+
+# dependencies
+**/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/.vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+yarn.lock
+package-lock.json
+*bak
+.vscode
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+.eslintcache
 *.log
 wp-config.php
 wp-content/advanced-cache.php
